@@ -1,0 +1,15 @@
+python-dotenv
+jupyter
+jupyterlab
+requests
+numpy
+pandas
+matplotlib
+scipy
+scikit-learn
+scikit-image
+pillow
+seaborn
+python-dateutil
+pytz
+statsmodels

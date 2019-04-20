@@ -1,0 +1,52 @@
+# ignore local settings file
+local_settings.py
+
+# dotenv file
+.env
+
+# ignore compiled python /cython files
+*.pyc
+*.pyd
+__pycache__
+
+.ipynb*
+.tox
+
+# ignore microservice config files 
+*newrelic.ini
+*yoyo.ini
+
+# ignore virtualenv path
+env/
+
+# ignore objects and archives
+*.[oa]
+*.so
+build/
+*/deploy/
+
+# Setuptools distribution folder
+*/dist/
+
+# Python egg metadata
+*.egg-info
+*.egg
+
+# ignore eclipse / pydev / vscode / pycharm project files
+.project
+.pydevproject
+.idea
+.settings
+*.vscode
+
+# system files / osx noise
+.DS_Store
+token.mat
+
+# vim swapfiles
+.*.swp
+.*.swo
+
+# logfiles
+*.log
+logs/
